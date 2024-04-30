@@ -11,12 +11,19 @@ $ virtualenv -p /usr/bin/python3.11 my_env
 
 # COMANDO DJANGO
 ---
+
+$ pip install django
+
 $ django-admin startproject Proyecto1
-$ cd Proyecto1
-$ python manage.py help
+
 $ cd Proyecto1
 
-List: init.py ,settings.py, urls.py, wsgi.py
+$ python manage.py help
+
+$ cd Proyecto1
+
+List: 
+* init.py ,settings.py, urls.py, wsgi.py
 
 
 # ACTIVAR EL PROYECTO
