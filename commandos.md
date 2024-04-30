@@ -31,3 +31,20 @@ List:
 ---
 - python manage.py migrate
 - python manage.py runserver
+
+# INSTALA EL PAQUETE Bootstrap 4
+
+$ pip install django-bootstrap4
+
+# EDITAMOS ARCHIVOS settings.py y agregamos Bootstrap en la parte de INSTALLED_APPS
+```
+ INSTALLED_APPS = [
+     'django.contrib.admin',
+     'django.contrib.auth',
+     'django.contrib.contenttypes',
+     'django.contrib.sessions',
+     'django.contrib.messages',
+     'django.contrib.staticfiles',
+     'bootstrap4', # NUEVA LINEA
+ ]
+```
